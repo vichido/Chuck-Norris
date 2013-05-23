@@ -21,13 +21,14 @@
 		63A12FB3174E680900701D3E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A12FB1174E680900701D3E /* MainStoryboard_iPad.storyboard */; };
 		63A12FB6174E680900701D3E /* Chuck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63A12FB4174E680900701D3E /* Chuck.xcdatamodeld */; };
 		63A12FB9174E680900701D3E /* CNMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A12FB8174E680900701D3E /* CNMasterViewController.m */; };
-		63A12FBC174E680900701D3E /* CNDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A12FBB174E680900701D3E /* CNDetailViewController.m */; };
 		63A12FC4174E680900701D3E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A12FC3174E680900701D3E /* SenTestingKit.framework */; };
 		63A12FC5174E680900701D3E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A12F94174E680900701D3E /* UIKit.framework */; };
 		63A12FC6174E680900701D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A12F96174E680900701D3E /* Foundation.framework */; };
 		63A12FC7174E680900701D3E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63A12F9A174E680900701D3E /* CoreData.framework */; };
 		63A12FCF174E680900701D3E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63A12FCD174E680900701D3E /* InfoPlist.strings */; };
 		63A12FD2174E680900701D3E /* ChuckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A12FD1174E680900701D3E /* ChuckTests.m */; };
+		63A12FDC174EA3E000701D3E /* chuck-norris@2.png in Resources */ = {isa = PBXBuildFile; fileRef = 63A12FDB174EA3E000701D3E /* chuck-norris@2.png */; };
+		94167DA1183844518FE33A07 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9D8AF67BBC45EDB7554768 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,14 +61,15 @@
 		63A12FB5174E680900701D3E /* Chuck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chuck.xcdatamodel; sourceTree = "<group>"; };
 		63A12FB7174E680900701D3E /* CNMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNMasterViewController.h; sourceTree = "<group>"; };
 		63A12FB8174E680900701D3E /* CNMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNMasterViewController.m; sourceTree = "<group>"; };
-		63A12FBA174E680900701D3E /* CNDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNDetailViewController.h; sourceTree = "<group>"; };
-		63A12FBB174E680900701D3E /* CNDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNDetailViewController.m; sourceTree = "<group>"; };
 		63A12FC2174E680900701D3E /* ChuckTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A12FC3174E680900701D3E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		63A12FCC174E680900701D3E /* ChuckTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChuckTests-Info.plist"; sourceTree = "<group>"; };
 		63A12FCE174E680900701D3E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63A12FD0174E680900701D3E /* ChuckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChuckTests.h; sourceTree = "<group>"; };
 		63A12FD1174E680900701D3E /* ChuckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChuckTests.m; sourceTree = "<group>"; };
+		63A12FDB174EA3E000701D3E /* chuck-norris@2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chuck-norris@2.png"; path = "../chuck-norris@2.png"; sourceTree = "<group>"; };
+		762BAC67261A4308957E5DAD /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		BD9D8AF67BBC45EDB7554768 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				63A12F97174E680900701D3E /* Foundation.framework in Frameworks */,
 				63A12F99174E680900701D3E /* CoreGraphics.framework in Frameworks */,
 				63A12F9B174E680900701D3E /* CoreData.framework in Frameworks */,
+				94167DA1183844518FE33A07 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +106,7 @@
 				63A12FCA174E680900701D3E /* ChuckTests */,
 				63A12F93174E680900701D3E /* Frameworks */,
 				63A12F92174E680900701D3E /* Products */,
+				762BAC67261A4308957E5DAD /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,7 @@
 				63A12F98174E680900701D3E /* CoreGraphics.framework */,
 				63A12F9A174E680900701D3E /* CoreData.framework */,
 				63A12FC3174E680900701D3E /* SenTestingKit.framework */,
+				BD9D8AF67BBC45EDB7554768 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -136,8 +141,6 @@
 				63A12FB1174E680900701D3E /* MainStoryboard_iPad.storyboard */,
 				63A12FB7174E680900701D3E /* CNMasterViewController.h */,
 				63A12FB8174E680900701D3E /* CNMasterViewController.m */,
-				63A12FBA174E680900701D3E /* CNDetailViewController.h */,
-				63A12FBB174E680900701D3E /* CNDetailViewController.m */,
 				63A12FB4174E680900701D3E /* Chuck.xcdatamodeld */,
 				63A12F9D174E680900701D3E /* Supporting Files */,
 			);
@@ -154,6 +157,7 @@
 				63A12FA8174E680900701D3E /* Default.png */,
 				63A12FAA174E680900701D3E /* Default@2x.png */,
 				63A12FAC174E680900701D3E /* Default-568h@2x.png */,
+				63A12FDB174EA3E000701D3E /* chuck-norris@2.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63A12FD5174E680900701D3E /* Build configuration list for PBXNativeTarget "Chuck" */;
 			buildPhases = (
+				8C91C33DCF0A422B861A559D /* Check Pods Manifest.lock */,
 				63A12F8D174E680900701D3E /* Sources */,
 				63A12F8E174E680900701D3E /* Frameworks */,
 				63A12F8F174E680900701D3E /* Resources */,
+				09E936E0AF53443690C78B00 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +261,7 @@
 				63A12FAD174E680900701D3E /* Default-568h@2x.png in Resources */,
 				63A12FB0174E680900701D3E /* MainStoryboard_iPhone.storyboard in Resources */,
 				63A12FB3174E680900701D3E /* MainStoryboard_iPad.storyboard in Resources */,
+				63A12FDC174EA3E000701D3E /* chuck-norris@2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		09E936E0AF53443690C78B00 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		63A12FC0174E680900701D3E /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +303,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		8C91C33DCF0A422B861A559D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -293,7 +328,6 @@
 				63A12FA7174E680900701D3E /* CNAppDelegate.m in Sources */,
 				63A12FB6174E680900701D3E /* Chuck.xcdatamodeld in Sources */,
 				63A12FB9174E680900701D3E /* CNMasterViewController.m in Sources */,
-				63A12FBC174E680900701D3E /* CNDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +397,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: John Cadengo (DJ9Q6DD464)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -378,6 +413,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -395,6 +431,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: John Cadengo (DJ9Q6DD464)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -403,6 +440,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -411,6 +449,7 @@
 		};
 		63A12FD6174E680900701D3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762BAC67261A4308957E5DAD /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chuck/Chuck-Prefix.pch";
@@ -422,6 +461,7 @@
 		};
 		63A12FD7174E680900701D3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762BAC67261A4308957E5DAD /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Chuck/Chuck-Prefix.pch";
@@ -484,6 +524,7 @@
 				63A12FD7174E680900701D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A12FD8174E680900701D3E /* Build configuration list for PBXNativeTarget "ChuckTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +533,7 @@
 				63A12FDA174E680900701D3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

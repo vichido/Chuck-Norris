@@ -8,15 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@class CNDetailViewController;
-
 #import <CoreData/CoreData.h>
 
-@interface CNMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate>
+@interface CNMasterViewController : UIViewController <NSFetchedResultsControllerDelegate>
 
-@property (strong, nonatomic) CNDetailViewController *detailViewController;
+@property (strong, nonatomic) IBOutlet UILabel *mainLabel;
+@property (strong, nonatomic) IBOutlet UIButton *jokeButton;
+@property (strong, nonatomic) IBOutlet UIActivityIndicatorView *activityView;
 
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
+
+- (void) fetchJoke;
 
 @end
